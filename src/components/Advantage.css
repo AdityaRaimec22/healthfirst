@@ -1,0 +1,15 @@
+.advantageContainer{
+    background-color: yellow;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.descriptionBox{
+    background-color: purple;
+    height: 30px;
+    width: 100%;
+    bottom: 0px;
+    position: relative;
+}
