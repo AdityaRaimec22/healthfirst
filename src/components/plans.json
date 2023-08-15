@@ -1,0 +1,233 @@
+{
+    "plans": {
+        "ageGroup": [
+            {
+                "age": "18-25"
+            },
+            {
+                "age": "26-30"
+            },
+            {
+                "age": "31-40"
+            },
+            {
+                "age": "41-50"
+            },
+            {
+                "age": "51-65"
+            }
+        ],
+        "plan": {
+            "18-25": [
+                {
+                    "heading": "heading",
+                    "Discount": "",
+                    "tags": {},
+                    "coverAmount": "",
+                    "amountPerMonth": "btn1",
+                    "amountAnnually": ""
+                },
+                {
+                    "heading": "heading",
+                    "Discount": "",
+                    "tags": {},
+                    "coverAmount": "",
+                    "amountPerMonth": "btn1",
+                    "amountAnnually": ""
+                },
+                {
+                    "heading": "heading",
+                    "Discount": "",
+                    "tags": {},
+                    "coverAmount": "",
+                    "amountPerMonth": "btn1",
+                    "amountAnnually": ""
+                },
+                {
+                    "heading": "heading",
+                    "Discount": "",
+                    "tags": {},
+                    "coverAmount": "",
+                    "amountPerMonth": "btn1",
+                    "amountAnnually": ""
+                },
+                {
+                    "heading": "heading",
+                    "Discount": "",
+                    "tags": {},
+                    "coverAmount": "",
+                    "amountPerMonth": "btn1",
+                    "amountAnnually": ""
+                }
+            ],
+            "26-30": [
+                {
+                    "heading": "heading2",
+                    "Discount": "",
+                    "tags": {},
+                    "coverAmount": "",
+                    "amountPerMonth": "btn2",
+                    "amountAnnually": ""
+                },
+                {
+                    "heading": "heading2",
+                    "Discount": "",
+                    "tags": {},
+                    "coverAmount": "",
+                    "amountPerMonth": "btn2",
+                    "amountAnnually": ""
+                },
+                {
+                    "heading": "heading2",
+                    "Discount": "",
+                    "tags": {},
+                    "coverAmount": "",
+                    "amountPerMonth": "btn2",
+                    "amountAnnually": ""
+                },
+                {
+                    "heading": "heading2",
+                    "Discount": "",
+                    "tags": {},
+                    "coverAmount": "",
+                    "amountPerMonth": "btn2",
+                    "amountAnnually": ""
+                },
+                {
+                    "heading": "heading2",
+                    "Discount": "",
+                    "tags": {},
+                    "coverAmount": "",
+                    "amountPerMonth": "btn2",
+                    "amountAnnually": ""
+                }
+            ],
+            "31-40": [
+                {
+                    "heading": "heading3",
+                    "Discount": "",
+                    "tags": {},
+                    "coverAmount": "",
+                    "amountPerMonth": "btn3",
+                    "amountAnnually": ""
+                },
+                {
+                    "heading": "heading3",
+                    "Discount": "",
+                    "tags": {},
+                    "coverAmount": "",
+                    "amountPerMonth": "btn3",
+                    "amountAnnually": ""
+                },
+                {
+                    "heading": "heading3",
+                    "Discount": "",
+                    "tags": {},
+                    "coverAmount": "",
+                    "amountPerMonth": "btn3",
+                    "amountAnnually": ""
+                },
+                {
+                    "heading": "heading3",
+                    "Discount": "",
+                    "tags": {},
+                    "coverAmount": "",
+                    "amountPerMonth": "btn3",
+                    "amountAnnually": ""
+                },
+                {
+                    "heading": "heading3",
+                    "Discount": "",
+                    "tags": {},
+                    "coverAmount": "",
+                    "amountPerMonth": "btn3",
+                    "amountAnnually": ""
+                }
+            ],
+            "41-50": [
+                {
+                    "heading": "heading4",
+                    "Discount": "",
+                    "tags": {},
+                    "coverAmount": "",
+                    "amountPerMonth": "btn4",
+                    "amountAnnually": ""
+                },
+                {
+                    "heading": "heading4",
+                    "Discount": "",
+                    "tags": {},
+                    "coverAmount": "",
+                    "amountPerMonth": "btn4",
+                    "amountAnnually": ""
+                },
+                {
+                    "heading": "heading4",
+                    "Discount": "",
+                    "tags": {},
+                    "coverAmount": "",
+                    "amountPerMonth": "btn4",
+                    "amountAnnually": ""
+                },
+                {
+                    "heading": "heading4",
+                    "Discount": "",
+                    "tags": {},
+                    "coverAmount": "",
+                    "amountPerMonth": "btn4",
+                    "amountAnnually": ""
+                },
+                {
+                    "heading": "heading4",
+                    "Discount": "",
+                    "tags": {},
+                    "coverAmount": "",
+                    "amountPerMonth": "btn4",
+                    "amountAnnually": ""
+                }
+            ],
+            "51-65": [
+                {
+                    "heading": "heading5",
+                    "Discount": "",
+                    "tags": {},
+                    "coverAmount": "",
+                    "amountPerMonth": "btn5",
+                    "amountAnnually": ""
+                },
+                {
+                    "heading": "heading5",
+                    "Discount": "",
+                    "tags": {},
+                    "coverAmount": "",
+                    "amountPerMonth": "btn5",
+                    "amountAnnually": ""
+                },
+                {
+                    "heading": "heading5",
+                    "Discount": "",
+                    "tags": {},
+                    "coverAmount": "",
+                    "amountPerMonth": "btn5",
+                    "amountAnnually": ""
+                },
+                {
+                    "heading": "heading5",
+                    "Discount": "",
+                    "tags": {},
+                    "coverAmount": "",
+                    "amountPerMonth": "btn5",
+                    "amountAnnually": ""
+                },
+                {
+                    "heading": "heading5",
+                    "Discount": "",
+                    "tags": {},
+                    "coverAmount": "",
+                    "amountPerMonth": "btn5",
+                    "amountAnnually": ""
+                }
+            ]
+        }
+    }
+}

@@ -1,10 +1,9 @@
-import React from 'react'
+import React, {useState} from 'react'
 import BuyButton from './BuyButton'
 import SwitchButton from './SwitchButton'
 
 export default function Claim() {
-  const BigClaimDiv = document.getElementById('ClaimDiv')
-  const ClaimDiv = document.getElementsByClassName('CashlessClaimDiv')[0];
+  const[claimType, setClaimType] = useState('Cashless_Claim');
   const claim = {
     "Cashless_Claim": [
       {
@@ -53,45 +52,11 @@ export default function Claim() {
   }
 
   const showCashlessClaim = () => {
-    BigClaimDiv.innerText = '';
-    claim.Cashless_Claim.forEach((ele)=>{
-      const img = document.createElement('img');
-      img.src = ele.img
-      img.alt = '';
-
-      const heading = document.createElement('h5');
-      heading.textContent = ele.heading;
-
-      const desc = document.createElement('p');
-      desc.textContent = ele.desc;
-
-      ClaimDiv.appendChild(img);
-      ClaimDiv.appendChild(heading);
-      ClaimDiv.appendChild(desc);
-
-      BigClaimDiv.appendChild(ClaimDiv);
-    })
+    setClaimType('Cashless_Claim');
   }
 
   const shoeReimbursementClaim = () => {
-    BigClaimDiv.innerText = '';
-    claim.Reimbursement_Claim.forEach((ele)=>{
-      const img = document.createElement('img');
-      img.src = ele.img
-      img.alt = '';
-
-      const heading = document.createElement('h5');
-      heading.textContent = ele.heading;
-
-      const desc = document.createElement('p');
-      desc.textContent = ele.desc;
-
-      ClaimDiv.appendChild(img);
-      ClaimDiv.appendChild(heading);
-      ClaimDiv.appendChild(desc);
-
-      BigClaimDiv.appendChild(ClaimDiv);
-    })
+    setClaimType('Reimbursement_Claim')
   }
   return (
     <div className='container'>
@@ -100,7 +65,7 @@ export default function Claim() {
       <SwitchButton showCashlessClaim = {showCashlessClaim} shoeReimbursementClaim = {shoeReimbursementClaim}/>
       <h5 className="center"><b>1 Claim processed every minute^^</b></h5>
       <div id='ClaimDiv'>
-        {claim.Cashless_Claim.map((ele)=>{
+        {claim[claimType].map((ele)=>{
           return <div className='CashlessClaimDiv'>
             <img src={ele.img} alt=""/>
             <h5>{ele.heading}</h5>

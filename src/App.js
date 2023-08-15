@@ -9,20 +9,24 @@ import Reviews from './components/Reviews'
 import Claim from './components/Claim'
 import Questions from './components/Questions';
 import Footer from './components/Footer';
+import Plans from './components/Plans';
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+} from "react-router-dom"
 
 function App() {
   return (
     <>
-    <Navbar/>
-    <Slider/>
-    <Advantages/>
-    <BuyButton/>
-    <Coverage/>
-    <Benefits/>
-    <Reviews/>
-    <Claim/>
-    <Questions/>
-    <Footer/>
+    <Router>
+      <Navbar/>
+        <Routes>
+          <Route path='/' element={[<Slider />,<Advantages />,<BuyButton />,<Coverage />,<Benefits />,<Reviews />,<Claim />,<Questions />]}/>
+          <Route path='/plans' element={<Plans/>}/>
+        </Routes>
+      <Footer/>
+    </Router>
     </>
   );
 }
