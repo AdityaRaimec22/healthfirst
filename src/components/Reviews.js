@@ -6,28 +6,28 @@ export default function Reviews() {
     const support = {
         "consumerSupport":[
             {
-                "img":"",
-                "desc":""
+                "img":"https://www.hdfcergo.com/images/default-source/optima-secure/nearly-10k-cashless-hospitals.svg",
+                "desc":"Wider Pre & Post Hospitalization"
             },
             {
-                "img":"",
-                "desc":""
+                "img":"https://www.hdfcergo.com/images/default-source/optima-secure/75000-crore-claims-settled.svg",
+                "desc":"Premium start at 24/day"
             },
             {
-                "img":"",
-                "desc":""
+                "img":"https://www.hdfcergo.com/images/default-source/optima-secure/1-claim-processed-every-minute.svg",
+                "desc":"1 Claim processed every minute"
             },
             {
-                "img":"",
-                "desc":""
+                "img":"https://www.hdfcergo.com/images/default-source/optima-secure/24x7-call-centre-serving-in-10-language.svg",
+                "desc":"24x7 suppport in 10 languages"
             },
             {
-                "img":"",
-                "desc":""
+                "img":"https://www.hdfcergo.com/images/default-source/health-lob/icons-hd/happy-customers.svg",
+                "desc":"1.5cr+happy customers"
             },
             {
-                "img":"",
-                "desc":""
+                "img":"https://www.hdfcergo.com/images/default-source/health-campaign-dec/99-8-claim-settlement-ratio(1).png",
+                "desc":"100% claim settlement ratio"
             },
         ],
         "reviews":[
@@ -72,10 +72,8 @@ export default function Reviews() {
                 <img className='firstImg' src="https://www.hdfcergo.com/images/default-source/new-campaign-page-all-lob/optima-secure-logo.svg" alt="" />
             </div>
             <div style={{display:'flex',flexDirection:'column',marginLeft:'40px'}}>
-                <div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                    Quasi quae explicabo reiciendis, ex, voluptates cupiditate perferendis 
-                    numquam fugit porro magni placeat tempore earum cumque libero distinctio
-                    eligendi architecto omnis praesentium!</p></div>
+                <div><p>Backed by the trust of 1.5 crore+ happy customers@ over the past 18 years. At HDFC ERGO, we consistently strive to make insurance affordable, easier and dependable. Here, promises are kept, claims are fulfilled and lives are nurtured with
+                    utmost commitment. </p></div>
                 <div className='row wrap'>
                     {support.consumerSupport.map((ele)=>{
                         return <div className='infoDiv'>
@@ -86,7 +84,7 @@ export default function Reviews() {
                 </div>    
             </div>
         </div>
-        <h5 className='center'>--Reviews--</h5>
+        {/* <h5 className='center'>--Reviews--</h5>
         <div className='my-4 row'>
             {support.reviews.map((ele)=>{
                 return <div style={{margin:'auto'}} className='row reviewerDiv'>
@@ -98,7 +96,7 @@ export default function Reviews() {
                     </div>
                 </div>
             })}
-        </div>
+        </div> */}
         <BuyButton/>
     </div>
   )

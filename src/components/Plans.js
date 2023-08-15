@@ -15,6 +15,10 @@ export default function Plans() {
     const openModal = (plan) => {
         setSelectedPlan(plan);
     }
+
+    const navigateFunc = () => {
+        document.location.href = '/ProposerDetails'
+    }
     
   return (
     <div className='container'>
@@ -48,7 +52,7 @@ export default function Plans() {
                 </div>
                 <div className="modal-footer">
                     <button type="button" className="btn btn-dark" data-bs-dismiss="modal">Close</button>
-                    <button type="button" className="btn btn-dark"><Link className='nav-link' to='/ProposerDetails'>Proceed for proposal</Link></button>
+                    <button onClick={navigateFunc} type="button" className="btn btn-dark">Proceed for proposal</button>
                 </div>
             </div>
         </div>

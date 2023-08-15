@@ -6,56 +6,56 @@ export default function Benefits() {
     const Benefit = {
         "BigHead": [
             {
-                "img":"",
-                "heading":"heading",
+                "img":"https://www.hdfcergo.com/images/default-source/optima-secure/protect-benefitaaa.svg",
+                "heading":"Protect Benefit",
+                "desc":"Covers Out of pocket expenses"
+            },
+            {
+                "img":"https://www.hdfcergo.com/images/default-source/optima-secure/aggregate-discountaaa.svg",
+                "heading":"Aggregate Deductable discount",
                 "desc":"heading"
             },
             {
-                "img":"",
-                "heading":"heading",
-                "desc":"heading"
+                "img":"https://www.hdfcergo.com/images/default-source/optima-secure/so-much-savings.svg",
+                "heading":"So much Savings",
+                "desc":"Online long term and many more discounts"
             },
             {
-                "img":"",
-                "heading":"heading",
-                "desc":"heading"
-            },
-            {
-                "img":"",
-                "heading":"heading",
-                "desc":"heading"
+                "img":"https://www.hdfcergo.com/images/default-source/optima-secure/so-much-choices.svg",
+                "heading":"So much choices",
+                "desc":"Cover upto 2cr & Tenure upto 3 years"
             }
         ],
         "SmallHead": [
             {
-                "img":"",
-                "heading":"SmallHeading"            
+                "img":"https://www.hdfcergo.com/images/default-source/optima-secure/procedure-charges.svg",
+                "heading":"Procedure Charges Covered"            
             },
             {
-                "img":"",
-                "heading":"SmallHeading"        
+                "img":"https://www.hdfcergo.com/images/default-source/optima-secure/optional-items.svg",
+                "heading":"Cost of disposable covered"        
             },
             {
-                "img":"",
-                "heading":"SmallHeading"        
+                "img":"https://www.hdfcergo.com/images/default-source/optima-secure/cost-of-consumablea8637781354434828b117e7931c8ec95e.svg",
+                "heading":"Cost of Consumables Covered"        
             }
         ],
         "Feature": [
             {
-                "heading":"heading",
-                "desc":"desc"
+                "heading":"Support Devices",
+                "desc":" We cover costs towards the cervical collar, braces, belts etc"
             },
             {
-                "heading":"heading",
-                "desc":"desc"
+                "heading":"Cost of Disposables",
+                "desc":" Go cashless with in-built coverage for disposable items like buds, gloves, nebulization kits and other consumables during hospitalisation"
             },
             {
-                "heading":"heading",
-                "desc":"desc"
+                "heading":"Cost of kits",
+                "desc":" Go cashless with in-built coverage for disposable items like buds, gloves, nebulization kits and other consumables during hospitalisation"
             },
             {
-                "heading":"heading",
-                "desc":"desc"
+                "heading":"Procedures Charges",
+                "desc":" We cover costs towards gauze, cotton, crepe bandage, surgical tape etc"
             }
         ]
     };
@@ -67,7 +67,7 @@ export default function Benefits() {
         <div style={{display:'flex',flexDirection:'row'}}>
             <div className="box1" style={{marginRight:'20px'}}>
                 {Benefit.BigHead.map((ele)=>{
-                    return <div>
+                    return <div style={{display:'flex',flexDirection:'row'}}>
                         <img src={ele.img} alt="" />
                         <div>
                             <h5>{ele.heading}</h5>
@@ -79,7 +79,8 @@ export default function Benefits() {
             <div className="box2">
                 <div className="smallBox1" style={{display:'flex',flexDirection:'row',flexWrap:'wrap'}}>
                     {Benefit.SmallHead.map((ele)=>{
-                        return <div style={{margin:'auto'}}>
+                        return <div style={{margin:'auto',display:'flex',flexDirection:'row'}}>
+                            <img src={ele.img} alt="" />
                             <h6>{ele.heading}</h6>
                         </div>
                     })}

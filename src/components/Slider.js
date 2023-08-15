@@ -15,10 +15,10 @@ export default function Slider() {
             <img src="http://i.imgur.com/i5rXEl2.png" className="d-block w-100" alt="..."/>
             </div>
             <div className="carousel-item">
-            <img src="http://i.imgur.com/g7RGSsM.png" className="d-block w-100" alt="..."/>
+            <img src="http://i.imgur.com/6wDSTrj.png" className="d-block w-100" alt="..."/>
             </div>
             <div className="carousel-item">
-            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/Shreyansh/BAU/Unrexc/D70978891_INWLD_BAU_Unrec_Uber_PC_Hero_3000x1200._CB594707876_.jpg" className="d-block w-100" alt="..."/>
+            <img src="http://i.imgur.com/AaeHze1.png" className="d-block w-100" alt="..."/>
             </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
