@@ -4,7 +4,7 @@ export default function Slider() {
   return (
     <>
     <div className="container">
-    <div id="carouselExampleIndicators" className="carousel slide">
+    <div id="carouselExampleIndicators" className="carousel slide" >
         <div className="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -12,13 +12,13 @@ export default function Slider() {
         </div>
         <div className="carousel-inner my-4">
             <div className="carousel-item active">
-            <img src="http://i.imgur.com/i5rXEl2.png" className="d-block w-100" alt="..."/>
+            <img style={{border:'3px solid white',borderRadius:'15px'}} src="http://i.imgur.com/i5rXEl2.png" className="d-block w-100" alt="..."/>
+            </div>
+            <div  className="carousel-item">
+            <img style={{border:'3px solid white',borderRadius:'15px'}} src="http://i.imgur.com/6wDSTrj.png" className="d-block w-100" alt="..."/>
             </div>
             <div className="carousel-item">
-            <img src="http://i.imgur.com/6wDSTrj.png" className="d-block w-100" alt="..."/>
-            </div>
-            <div className="carousel-item">
-            <img src="http://i.imgur.com/AaeHze1.png" className="d-block w-100" alt="..."/>
+            <img style={{border:'3px solid white',borderRadius:'15px'}} src="http://i.imgur.com/qEsnu3Q.png" className="d-block w-100" alt="..."/>
             </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

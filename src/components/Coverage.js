@@ -32,7 +32,7 @@ export default function Coverage() {
   return (
     <div className='container'>
       <h4 className='center'>--So Much Coverage--</h4>
-      <div style={{display:'flex',flexDirection:'row'}}>
+      <div style={{display:'flex',flexDirection:'row',border:'3px solid white',borderRadius:'15px'}}>
         {Coverage.map((ele)=>{
             return <div style={{margin:'auto'}} >
               <img src={ele.img} alt="" />

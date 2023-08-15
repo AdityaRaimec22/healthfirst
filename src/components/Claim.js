@@ -59,12 +59,13 @@ export default function Claim() {
     setClaimType('Reimbursement_Claim')
   }
   return (
-    <div className='container'>
+    <div className='container' >
+      <div style={{border:'3px solid white',borderRadius:'15px',boxShadow:'grey'}}>
       <h4 className='center'>--How to <strong> Make a Claim </strong>for your Health Insurance--</h4>
       <p>The sole purpose of buying a health insurance plan is to get financial support at the time of medical emergency. Hence, it is important to read the below steps to know how Health Insurance claims process works differently for cashless claimsand
             reimbursement claim requests. </p>
       <SwitchButton showCashlessClaim = {showCashlessClaim} shoeReimbursementClaim = {shoeReimbursementClaim}/>
-      <h5 className="center"><b>1 Claim processed every minute^^</b></h5>
+      <h5  className="center"><b>1 Claim processed every minute^^</b></h5>
       <div id='ClaimDiv' style={{display:'flex',flexDirection:'row'}}>
         {claim[claimType].map((ele)=>{
           return <div className='CashlessClaimDiv'>
@@ -73,6 +74,7 @@ export default function Claim() {
             <p>{ele.desc}</p>
           </div>
         })}
+      </div>
       </div>
       <BuyButton/>
     </div>

@@ -48,9 +48,9 @@ export default function Questions() {
   ]
   return (
     
-    <div className='container'>
+    <div className='container' >
       <h4 className='center'><b>--Frequently asked Questions On health first--</b></h4>
-      <div>
+      <div style={{border:'3px solid white',borderRadius:'15px'}}>
         <div>
           {Questions.map((ele)=>{
             return <div>

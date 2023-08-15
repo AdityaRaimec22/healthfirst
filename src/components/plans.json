@@ -21,41 +21,41 @@
             "18-25": [
                 {
                     "heading": "heading",
-                    "Discount": "",
-                    "tags": {},
-                    "coverAmount": "",
+                    "Discount": "5% online discount",
+                    "tags": ["no room rent limit","Rs 10.5 lakh no claim bonus","unlimited restoration of cover"],
+                    "coverAmount": "7 lakh",
                     "amountPerMonth": "btn1",
                     "amountAnnually": ""
                 },
                 {
                     "heading": "heading",
-                    "Discount": "",
-                    "tags": {},
-                    "coverAmount": "",
+                    "Discount": "5% online discount",
+                    "tags": ["single private Ac room","unlimited restoration of Rs 10 lakh cover","unlimited restoration of cover forever"],
+                    "coverAmount": "1 crore",
                     "amountPerMonth": "btn1",
                     "amountAnnually": ""
                 },
                 {
                     "heading": "heading",
-                    "Discount": "",
-                    "tags": {},
-                    "coverAmount": "",
+                    "Discount": "5% online discount",
+                    "tags": ["single private Ac room","unlimited restoration of Rs 10 lakh cover","Rs 2.5 lakh no claim bonus","Restoration of cover once a year"],
+                    "coverAmount": "5 lakh",
                     "amountPerMonth": "btn1",
                     "amountAnnually": ""
                 },
                 {
                     "heading": "heading",
-                    "Discount": "",
-                    "tags": {},
-                    "coverAmount": "",
+                    "Discount": "5% online discount",
+                    "tags": ["No room rent limit","50000 No claim bonus","Restoration of cover once a year"],
+                    "coverAmount": "5 lakh",
                     "amountPerMonth": "btn1",
                     "amountAnnually": ""
                 },
                 {
                     "heading": "heading",
-                    "Discount": "",
-                    "tags": {},
-                    "coverAmount": "",
+                    "Discount": "5% online discount",
+                    "tags": ["No room rent limit","Rs 2.5 lakh no claim bonus","Restoration of cover once a year"],
+                    "coverAmount": "5 lakh",
                     "amountPerMonth": "btn1",
                     "amountAnnually": ""
                 }
@@ -64,7 +64,7 @@
                 {
                     "heading": "heading2",
                     "Discount": "",
-                    "tags": {},
+                    "tags": [ ],
                     "coverAmount": "",
                     "amountPerMonth": "btn2",
                     "amountAnnually": ""

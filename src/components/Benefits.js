@@ -64,7 +64,7 @@ export default function Benefits() {
     <div>
       <div className="container">
         <h4 className='center'>--Benefits--</h4>
-        <div style={{display:'flex',flexDirection:'row'}}>
+        <div style={{display:'flex',flexDirection:'row',border:'3px solid white',borderRadius:'15px'}}>
             <div className="box1" style={{marginRight:'20px'}}>
                 {Benefit.BigHead.map((ele)=>{
                     return <div style={{display:'flex',flexDirection:'row'}}>

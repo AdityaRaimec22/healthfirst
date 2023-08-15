@@ -67,7 +67,7 @@ export default function Reviews() {
   return (
     <div className='container'>
         <h4 className='center'><strong>--So Much </strong> Trust--</h4>
-        <div className='newDiv'>
+        <div className='newDiv' style={{border:'3px solid white',borderRadius:'15px'}}>
             <div>
                 <img className='firstImg' src="https://www.hdfcergo.com/images/default-source/new-campaign-page-all-lob/optima-secure-logo.svg" alt="" />
             </div>

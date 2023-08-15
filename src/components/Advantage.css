@@ -1,14 +1,16 @@
 .advantageContainer{
-    background-color: yellow;
+    /* background-color: yellow; */
     height: auto;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    border: 3px solid white;
+    border-radius: 15px;
 }
 
 .descriptionBox{
-    background-color: purple;
+    /* background-color: purple; */
     height: 30px;
     width: 100%;
     bottom: 0px;
@@ -23,7 +25,7 @@
 .BuyButton{
     padding: 10px;
     border-radius: 15px;
-    background-color: red;
+    background-color: rgb(167, 163, 163);
 }
 
 .center{
@@ -113,14 +115,14 @@
 }
 
 .ButtonDiv{
-    background-color: aqua;
+    background-color: rgb(217, 207, 207);
     padding: 10px;
     border-radius: 10px;
     margin: 5px;
 }
 
 .BigButtonDiv{
-    background-color: blue;
+    background-color: grey;
     padding: 5px 10px;
     display: flex;
     flex-direction: row;
