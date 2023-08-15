@@ -19,3 +19,56 @@
     margin: auto;
     border: 1px solid white;
 }
+
+.BuyButton{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: red;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.column{
+    display: 'flex';
+    flex-direction: 'column';
+}
+
+.infoDiv{
+    width: 317px;
+    margin: 13px;
+    height: 74px;
+    background-color: brown;
+}
+
+.reviewerDiv{
+    width: 150px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.ButtonDiv{
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.BigButtonDiv{
+    background-color: blue;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+}

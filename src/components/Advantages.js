@@ -37,7 +37,7 @@ export default function Advantages() {
   return (
     <>
     <div className='container'>
-      <h4 style={{display:'flex',justifyContent:'center'}}>---Why Us---</h4>
+      <h4 className='center'>---Why Us---</h4>
       <div className='advantageContainer'>
         {features.map((ele)=>{
             return <div className='innerDiv'>
