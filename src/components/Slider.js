@@ -12,7 +12,7 @@ export default function Slider() {
         </div>
         <div className="carousel-inner my-4">
             <div className="carousel-item active">
-            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/Event/Gateway/JuneWRS/Teaser/Unrec-PC-2-3000._CB587224584_.jpg" className="d-block w-100" alt="..."/>
+            <img src="http://i.imgur.com/i5rXEl2.png" className="d-block w-100" alt="..."/>
             </div>
             <div className="carousel-item">
             <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Toys/PC_Hero_2x-toys._CB591544420_.jpg" className="d-block w-100" alt="..."/>
