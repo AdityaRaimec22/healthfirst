@@ -77,9 +77,9 @@ export default function Benefits() {
                 })}
             </div>
             <div className="box2">
-                <div className="smallBox1" style={{display:'flex',flexDirection:'row'}}>
+                <div className="smallBox1" style={{display:'flex',flexDirection:'row',flexWrap:'wrap'}}>
                     {Benefit.SmallHead.map((ele)=>{
-                        return <div style={{margin:'20px'}}>
+                        return <div style={{margin:'auto'}}>
                             <h6>{ele.heading}</h6>
                         </div>
                     })}

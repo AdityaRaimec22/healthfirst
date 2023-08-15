@@ -1,5 +1,6 @@
 import React from 'react'
 import BuyButton from './BuyButton'
+import './Advantage.css'
 
 export default function Reviews() {
     const support = {
@@ -66,9 +67,9 @@ export default function Reviews() {
   return (
     <div className='container'>
         <h4 className='center'><strong>--So Much </strong> Trust--</h4>
-        <div style={{display:'flex',flexDirection:'row'}}>
+        <div className='newDiv'>
             <div>
-                <img style={{width: '250px'}} src="https://www.hdfcergo.com/images/default-source/new-campaign-page-all-lob/optima-secure-logo.svg" alt="" />
+                <img className='firstImg' src="https://www.hdfcergo.com/images/default-source/new-campaign-page-all-lob/optima-secure-logo.svg" alt="" />
             </div>
             <div style={{display:'flex',flexDirection:'column',marginLeft:'40px'}}>
                 <div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 

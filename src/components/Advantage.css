@@ -43,19 +43,73 @@
 
 .infoDiv{
     width: 317px;
-    margin: 13px;
+    margin: auto;
+    display: block;
     height: 74px;
     background-color: brown;
+
+    @media (max-width: 1400px) {
+        width: 19vw;
+        height: 8vh;
+        @media (max-width:1241px) {
+            width: 19vw;
+        }
+        @media (max-width:1179px) {
+            width: 20vw;
+        }
+        @media (max-width: 1000px) {
+            width: 20vw;
+            /* height: 5vw; */
+        }
+        @media (max-width: 988px) {
+            width: 15vw;
+            /* height: 5vw; */
+        }
+        @media (max-width: 668px) {
+            width: 100%;
+            /* height: 5vw; */
+        }
+        /* margin: auto; */
+    }  
+}
+
+.firstImg{
+    width: 15vw;
+    @media (max-width:668px) {
+        display: flex;
+        justify-content: center;
+        margin-left: 40%;
+    }
+}
+
+.newDiv{
+    display:flex;
+    flex-direction:row;
+    @media (max-width:668px) {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .reviewerDiv{
     width: 150px;
     height: 100px;
     background-color: yellow;
+
+    @media (max-width:1010px) {
+        width: 15vw;
+    }
+    @media (max-width:986px) {
+        width: 10vw;
+    }
 }
 
 .wrap{
     flex-wrap: wrap;
+    @media (max-width:668px) {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .ButtonDiv{
