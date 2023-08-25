@@ -43,6 +43,10 @@
     flex-direction: 'column';
 }
 
+footer{
+    background-color: rgb(216, 210, 210);
+}
+
 .infoDiv{
     width: 317px;
     margin: auto;

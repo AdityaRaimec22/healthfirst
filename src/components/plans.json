@@ -20,44 +20,44 @@
         "plan": {
             "18-25": [
                 {
-                    "heading": "heading",
+                    "heading": "Care Supreme Direct",
                     "Discount": "5% online discount",
                     "tags": ["no room rent limit","Rs 10.5 lakh no claim bonus","unlimited restoration of cover"],
                     "coverAmount": "7 lakh",
-                    "amountPerMonth": "btn1",
-                    "amountAnnually": ""
+                    "amountPerMonth": "Rs 798/month",
+                    "amountAnnually": "9,754 anually"
                 },
                 {
-                    "heading": "heading",
+                    "heading": "Max saver 2.0",
                     "Discount": "5% online discount",
                     "tags": ["single private Ac room","unlimited restoration of Rs 10 lakh cover","unlimited restoration of cover forever"],
                     "coverAmount": "1 crore",
-                    "amountPerMonth": "btn1",
-                    "amountAnnually": ""
+                    "amountPerMonth": "Rs 780/month",
+                    "amountAnnually": "9,355 anually"
                 },
                 {
-                    "heading": "heading",
+                    "heading": "Star comprehensive",
                     "Discount": "5% online discount",
                     "tags": ["single private Ac room","unlimited restoration of Rs 10 lakh cover","Rs 2.5 lakh no claim bonus","Restoration of cover once a year"],
                     "coverAmount": "5 lakh",
-                    "amountPerMonth": "btn1",
-                    "amountAnnually": ""
+                    "amountPerMonth": "Rs 690/month",
+                    "amountAnnually": "8,278 anually"
                 },
                 {
-                    "heading": "heading",
+                    "heading": "Active fit plus",
                     "Discount": "5% online discount",
                     "tags": ["No room rent limit","50000 No claim bonus","Restoration of cover once a year"],
                     "coverAmount": "5 lakh",
-                    "amountPerMonth": "btn1",
-                    "amountAnnually": ""
+                    "amountPerMonth": "Rs 453/month",
+                    "amountAnnually": "5,429 anually"
                 },
                 {
-                    "heading": "heading",
+                    "heading": "Individual health guard gold",
                     "Discount": "5% online discount",
                     "tags": ["No room rent limit","Rs 2.5 lakh no claim bonus","Restoration of cover once a year"],
                     "coverAmount": "5 lakh",
-                    "amountPerMonth": "btn1",
-                    "amountAnnually": ""
+                    "amountPerMonth": "Rs 465/month",
+                    "amountAnnually": "5,569 anually"
                 }
             ],
             "26-30": [

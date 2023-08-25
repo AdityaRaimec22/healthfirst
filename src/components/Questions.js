@@ -53,8 +53,8 @@ export default function Questions() {
       <div style={{border:'3px solid white',borderRadius:'15px'}}>
         <div>
           {Questions.map((ele)=>{
-            return <div>
-              <h5>{ele.question}</h5>
+            return <div style={{padding:'10px',background:'grey',margin:'20px',border:'1px solid grey',borderRadius:'15px'}}>
+              <div><h5>{ele.question}</h5></div>
             <div></div>
             </div>
           })}
